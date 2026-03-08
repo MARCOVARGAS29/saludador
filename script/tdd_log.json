@@ -6,9 +6,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9dc2e5006064f99b25d631b3409ba9a8a1882a1b",
     "commitName": "feat: agregar saludo personalizado por nombre",
     "commitTimestamp": 1772985514731,
     "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar saludo dinámico según la hora del día",
+    "commitTimestamp": 1772985756329,
+    "testId": 2
   }
 ]
