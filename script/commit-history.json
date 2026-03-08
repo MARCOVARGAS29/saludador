@@ -57,16 +57,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "179fd24ed579016bf64165ff2abbe7375238f706",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-08T16:05:12.000Z",
       "message": "feat: agregar distinción de género en el saludo",
-      "url": "https://github.com/MARCOVARGAS29/saludador/commit/HEAD"
+      "url": "https://github.com/MARCOVARGAS29/saludador/commit/179fd24ed579016bf64165ff2abbe7375238f706"
     },
     "stats": {
       "total": 23,
       "additions": 17,
+      "deletions": 6,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-08T16:13:05.000Z",
+      "message": "feat: completar lógica final del bot con hora, género y edad",
+      "url": "https://github.com/MARCOVARGAS29/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 19,
       "deletions": 6,
       "date": "2026-03-08"
     },

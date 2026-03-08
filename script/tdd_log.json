@@ -18,9 +18,15 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "179fd24ed579016bf64165ff2abbe7375238f706",
     "commitName": "feat: agregar distinción de género en el saludo",
     "commitTimestamp": 1772985913255,
     "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: completar lógica final del bot con hora, género y edad",
+    "commitTimestamp": 1772986386636,
+    "testId": 4
   }
 ]
