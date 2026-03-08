@@ -1,25 +1,27 @@
-function saludar(nombre, genero, edad) {
+function saludar(nombre, genero, edad, idioma) {
   const hora = new Date().getHours();
-  let saludo = "";
+  
+  
+  const textos = {
+    es: {
+      manana: "Buenos días", tarde: "Buenas tardes", noche: "Buenas noches",
+      bienvenido: "Bienvenido", bienvenida: "Bienvenida", sr: "Sr. ", sra: "Sra. "
+    },
+    en: {
+      manana: "Good morning", tarde: "Good afternoon", noche: "Good evening",
+      bienvenido: "Welcome", bienvenida: "Welcome", sr: "Mr. ", sra: "Ms. "
+    }
+  };
 
-
-  if (hora >= 5 && hora < 12) {
-    saludo = "Buenos días";
-  } else if (hora >= 12 && hora < 20) {
-    saludo = "Buenas tardes";
-  } else {
-    saludo = "Buenas noches";
-  }
+  const t = textos[idioma];
+  
+  
+  let saludo = (hora < 12) ? t.manana : (hora < 20) ? t.tarde : t.noche;
 
  
-  const prefijo = (genero === "masculino") ? "Bienvenido" : "Bienvenida";
-  let tratamiento = "";
+  const prefijo = (genero === "masculino") ? t.bienvenido : t.bienvenida;
+  let tratamiento = (edad > 30) ? ((genero === "masculino") ? t.sr : t.sra) : "";
   
-  if (edad > 30) {
-    tratamiento = (genero === "masculino") ? "Sr. " : "Sra. ";
-  }
-
-
   return `${saludo}, ${prefijo} ${tratamiento}${nombre}`;
 }
 

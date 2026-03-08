@@ -1,18 +1,16 @@
-import saludar from "./saludador";
-
+import saludar from "./saludador.js";
 const boton = document.querySelector("#botonsaludar");
 const divResultado = document.querySelector("#resultado-div");
-const inputNombre = document.querySelector("#nombre");
-const inputGenero = document.querySelector("#genero");
-const inputEdad = document.querySelector("#edad");
+
 
 boton.addEventListener("click", (event) => {
-  event.preventDefault();
+  event.preventDefault(); 
   
-  const nombre = inputNombre.value;
-  const genero = inputGenero.value;
-  const edad = Number.parseInt(inputEdad.value);
+  const nombre = document.querySelector("#nombre").value;
+  const genero = document.querySelector("#genero").value;
+  const edad = Number.parseInt(document.querySelector("#edad").value);
+  const idioma = document.querySelector("#idioma").value;
 
-  
-  divResultado.innerHTML = "<p>" + saludar(nombre, genero, edad) + "</p>";
+  // Verifica que 'saludar' reciba los 4 argumentos
+  divResultado.innerHTML = "<p>" + saludar(nombre, genero, edad, idioma) + "</p>";
 });

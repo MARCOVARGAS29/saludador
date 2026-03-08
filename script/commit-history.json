@@ -76,17 +76,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "82a61f7a77e2b6fb650306b34b08122989ea44fc",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-08T16:13:05.000Z",
       "message": "feat: completar lógica final del bot con hora, género y edad",
-      "url": "https://github.com/MARCOVARGAS29/saludador/commit/HEAD"
+      "url": "https://github.com/MARCOVARGAS29/saludador/commit/82a61f7a77e2b6fb650306b34b08122989ea44fc"
     },
     "stats": {
       "total": 25,
       "additions": 19,
       "deletions": 6,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-08T16:21:54.000Z",
+      "message": "feat: implementar selector de idioma (Español/Inglés) en el saludo",
+      "url": "https://github.com/MARCOVARGAS29/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 89,
+      "additions": 49,
+      "deletions": 40,
       "date": "2026-03-08"
     },
     "coverage": 100,

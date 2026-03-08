@@ -24,9 +24,15 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "82a61f7a77e2b6fb650306b34b08122989ea44fc",
     "commitName": "feat: completar lógica final del bot con hora, género y edad",
     "commitTimestamp": 1772986386636,
     "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar selector de idioma (Español/Inglés) en el saludo",
+    "commitTimestamp": 1772986915090,
+    "testId": 5
   }
 ]
