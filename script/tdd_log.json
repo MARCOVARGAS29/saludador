@@ -12,9 +12,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7eabfe3d718454d670eebb20c6bd7dde5441193d",
     "commitName": "feat: implementar saludo dinámico según la hora del día",
     "commitTimestamp": 1772985756329,
     "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar distinción de género en el saludo",
+    "commitTimestamp": 1772985913255,
+    "testId": 3
   }
 ]

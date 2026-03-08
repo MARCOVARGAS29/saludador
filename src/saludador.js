@@ -1,4 +1,4 @@
-function saludar(nombre) {
+function saludar(nombre, genero) {
   const hora = new Date().getHours();
   let saludo = "";
 
@@ -10,7 +10,10 @@ function saludar(nombre) {
     saludo = "Buenas noches";
   }
 
-  return saludo + " " + nombre;
+  
+  const prefijo = (genero === "masculino") ? "Bienvenido" : "Bienvenida";
+  
+  return saludo + ", " + prefijo + " " + nombre;
 }
 
 export default saludar;

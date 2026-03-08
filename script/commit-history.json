@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7eabfe3d718454d670eebb20c6bd7dde5441193d",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-08T16:02:35.000Z",
       "message": "feat: implementar saludo dinámico según la hora del día",
-      "url": "https://github.com/MARCOVARGAS29/saludador/commit/HEAD"
+      "url": "https://github.com/MARCOVARGAS29/saludador/commit/7eabfe3d718454d670eebb20c6bd7dde5441193d"
     },
     "stats": {
       "total": 13,
       "additions": 12,
       "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-08T16:05:12.000Z",
+      "message": "feat: agregar distinción de género en el saludo",
+      "url": "https://github.com/MARCOVARGAS29/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 17,
+      "deletions": 6,
       "date": "2026-03-08"
     },
     "coverage": 100,
