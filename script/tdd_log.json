@@ -1,8 +1,14 @@
 [
   {
-    "commitId": "HEAD",
+    "commitId": "87f46e3dc18992409b35b170942309f8f80492f1",
     "commitName": "feat: implementar saludo inicial con hola",
     "commitTimestamp": 1772985217531,
     "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar saludo personalizado por nombre",
+    "commitTimestamp": 1772985514731,
+    "testId": 1
   }
 ]
